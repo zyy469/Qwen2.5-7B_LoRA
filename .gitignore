@@ -1,0 +1,38 @@
+# 模型权重与训练产物
+output_lora*/
+final_weights/
+*.safetensors
+*.bin
+*.pt
+
+# 数据集
+ceval-exam/
+ceval-repo/
+
+# 中间产物
+train.pt
+eval.pt
+eval_raw.json
+blind_eval.xlsx
+blind_eval_mapping.json
+loss_log.json
+ceval_result_*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+output.*.txt
